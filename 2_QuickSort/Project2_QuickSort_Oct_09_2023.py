@@ -50,9 +50,9 @@ while(True):
 array2  = [3, 1, 1, 6, 3, 8, 2, 1, 5]
 
 def partition (array, low, high):
-    pivot = array[high - 1] # last element
+    pivot = array[high-1] # last element
     i = low
-    j = high - 2
+    j = high - 2 #second last element
     
     while (i <= j):
         
@@ -62,13 +62,13 @@ def partition (array, low, high):
         while (array[j] >= pivot and i <= j):
             j = j - 1
         
-
         if i < j:
             # swap
             array[i], array[j] = array[j], array[i]
     
-    # swap the pivot and the array[i]
-    array[i], array[high -1] = array[high - 1], array[i]
+    if pivot < array[i]:
+        # swap the pivot and the array[i]
+        array[i], array[high -1] = array[high - 1], array[i]            
 
     # return pivot index
     return i 
@@ -81,3 +81,7 @@ def quickSort (array, low, high):
 
 quickSort(array2, 0, len(array2))
 print(array2) #output: [1, 1, 1, 2, 3, 3, 5, 6, 8]
+
+
+array3 = [1,2,3,4]
+quickSort(array3, 0, len(array3))
