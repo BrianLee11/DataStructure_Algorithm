@@ -7,8 +7,9 @@ QuickSort algorithm
 
 # given array
 # we want to sort this array without creating a new array
-# target = [1,1,1,2,3,3,5,6,8]
-array  = [3, 1, 1, 6, 3, 8, 2, 1, 5]
+# target = [1,2,3,5,6,8]
+# we assume the original array has distinct elements
+array  = [3,5,8,6,1,2]
 
 """ part 1: sort array so that 
 1) elements less than or equal to the pivot (defined as the last element) is 
@@ -47,7 +48,7 @@ while(True):
 # target = [1,1,1,2,3,3,5,6,8]
 
 # part 2
-array2  = [3, 1, 1, 6, 3, 8, 2, 1, 5]
+array2  = [4,8,6,9,3,1,2,0]
 
 def partition (array, low, high):
     pivot = array[high-1] # last element
@@ -80,8 +81,25 @@ def quickSort (array, low, high):
         quickSort(array, pivot_index + 1, high)
 
 quickSort(array2, 0, len(array2))
-print(array2) #output: [1, 1, 1, 2, 3, 3, 5, 6, 8]
+print(array2) 
 
-
+# array has to be distinct
 array3 = [1,2,3,4]
 quickSort(array3, 0, len(array3))
+print(array3) 
+
+
+
+
+
+array4 = [1,3,8,2,6,5]
+quickSort(array4, 0, len(array4))
+print(array4) 
+
+
+
+
+
+arraytest = [1,3,5,7,9,2,4,6,8]
+quickSort(arraytest, 0, len(arraytest))
+print(arraytest)
