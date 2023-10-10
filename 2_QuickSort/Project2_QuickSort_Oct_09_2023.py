@@ -57,10 +57,10 @@ def partition (array, low, high):
     
     while (i <= j):
         
-        while (array[i] <= pivot and i <=j):
+        while (array[i] < pivot and i <=j):
             i = i + 1
             
-        while (array[j] >= pivot and i <= j):
+        while (array[j] > pivot and i <= j):
             j = j - 1
         
         if i < j:
