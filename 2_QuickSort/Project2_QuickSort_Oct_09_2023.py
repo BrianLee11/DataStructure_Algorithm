@@ -43,9 +43,7 @@ while(True):
         array[i], array[len(array)-1] = array[len(array)-1], array[i]
         break
 
-#print(array) # output: [3, 1, 1, 1, 3, 2, 5, 6, 8]
-# now let's move to part 2: we want the final result to be:
-# target = [1,1,1,2,3,3,5,6,8]
+# now let's move to part 2:
 
 # part 2
 array2  = [4,8,6,9,3,1,2,0]
