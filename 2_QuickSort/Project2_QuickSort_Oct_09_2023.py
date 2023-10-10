@@ -55,7 +55,7 @@ def partition (array, low, high):
     
     while (i <= j):
         
-        while (array[i] < pivot and i <=j):
+        while (array[i] <= pivot and i <=j):
             i = i + 1
             
         while (array[j] > pivot and i <= j):
@@ -97,7 +97,7 @@ print(array4)
 
 
 
-
-arraytest = [1,3,5,7,9,2,4,6,8]
+# try:
+arraytest = [1,3,5,7,9,2,4,6,8,3,3,3,1,1,1,1]
 quickSort(arraytest, 0, len(arraytest))
-print(arraytest)
+print(arraytest) #[1, 1, 1, 1, 1, 2, 3, 3, 3, 3, 4, 5, 6, 7, 8, 9]
