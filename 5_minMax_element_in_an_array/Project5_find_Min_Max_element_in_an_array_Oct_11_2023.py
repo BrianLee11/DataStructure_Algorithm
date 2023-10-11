@@ -31,7 +31,10 @@ def minMax(array):
 
 	return max, min
 end function
+
+Time complexity: O(n^2)  (each i visiting case 1 and case 2 every time)
 """
+
 
 # Python codes
 def minMax(array):
