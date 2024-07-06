@@ -1,5 +1,5 @@
 # DataStructure_Algorithm
-	- Personal projects on "Data Structure and Algorithm"
+- Personal projects on "Data Structure and Algorithm"
 
 - Saturday, July 6, 2024: 
 	- "binary search." Related topics: divide-and-conquer. $log_{2}(n)$
