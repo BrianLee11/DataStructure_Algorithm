@@ -3,9 +3,13 @@
 
 **Logs in the order of recent dates.**
 
+- Tuesday, July 16, 2014
+	- [algorithm] str(integer) is $O(1)$, not $O(n)$
+
 - Tuesday, July 9, 2024:
   	- [algorithm]: **Convert an integer to a string.** Related topics: $log_{10}(\text{integer})$, integer operations // and %
   	- [data structure]:  **Convert an integer to a string.** Related topics: $char(\text{integer} + ord(\text{"0"}))$
+  	- [algorithm] len(array) is $O(1)$, not $O(n)$
 
 - Saturday, July 6, 2024: 
 	- [algorithm] **"binary search."** Related topics: divide-and-conquer. $log_{2}(n)$
