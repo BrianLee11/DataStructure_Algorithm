@@ -1,5 +1,5 @@
 # DataStructure_Algorithm
-- Personal projects on "Data Structure and Algorithm"
+- Personal projects on "Data Structure and Algorithm." Concepts and examples are provided.
 
 **Logs in the order of recent dates.**
 
