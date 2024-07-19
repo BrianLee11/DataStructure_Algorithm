@@ -4,7 +4,7 @@
 **Logs in the order of recent dates.**
 
 - Friday, July 19, 2024
-  	- [algorithm] **Quick sort** the time complexity of $O(n^2)$ in the worst case. 
+  	- [algorithm] **Quick sort** has the time complexity of $O(n^2)$ in the worst case. 
 
 - Tuesday, July 16, 2024
 	- [algorithm] **str(integer) is $O(1)$, not $O(n)$**
